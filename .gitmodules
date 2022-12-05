@@ -1,0 +1,3 @@
+[submodule "sensing/ubicoustics"]
+	path = sensing/ubicoustics
+	url = https://github.com/FIGLAB/ubicoustics.git
