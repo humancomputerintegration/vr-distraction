@@ -8,9 +8,9 @@ This repository contains hardware design files and VR scenes presented in the pa
 In this paper, we proposed a proof-of-concept device that detects a small set of distractive stimuli: wind, temperature change, door closing sound, car engine sound, and talking sound. 
 
 ### Prototype Components
-* Microphone - [Link](https://www.amazon.com/gp/product/B082M9W4G1/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
-* Wind sensor (Wind Sensor Rev. C) - [Link](https://moderndevice.com/products/wind-sensor)
-* Temperature sensor (DS18B20) - [Link](https://www.amazon.com/SunFounder-DS18B20-Temperature-Arduino-Raspberry/dp/B013GB27HS/ref=sr_1_19?keywords=DS18B20&qid=1670220883&sr=8-19)
+* Microphone - [Link](https://www.amazon.com/gp/product/B082M9W4G1/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1), connected to a laptop running audio classification model introduced below. 
+* Wind sensor (Wind Sensor Rev. C) - [Link](https://moderndevice.com/products/wind-sensor), connected to Arduino Nano
+* Temperature sensor (DS18B20) - [Link](https://www.amazon.com/SunFounder-DS18B20-Temperature-Arduino-Raspberry/dp/B013GB27HS/ref=sr_1_19?keywords=DS18B20&qid=1670220883&sr=8-19), connected to Arduino Nano
 
 ### Sensing
 * Audio classification -  [Ubicoustics](https://github.com/FIGLAB/ubicoustics) by Laput et.al.
