@@ -13,8 +13,8 @@ In this paper, we proposed a proof-of-concept device that detects a small set of
 * Temperature sensor (DS18B20) - [Link](https://www.amazon.com/SunFounder-DS18B20-Temperature-Arduino-Raspberry/dp/B013GB27HS/ref=sr_1_19?keywords=DS18B20&qid=1670220883&sr=8-19), connected to Arduino Nano
 
 ### Sensing
-* Audio classification -  [Ubicoustics](https://github.com/FIGLAB/ubicoustics) by Laput et.al.
-* Temperature/wind sensing - [this file]()
+* Audio classification -  [Ubicoustics](https://github.com/FIGLAB/ubicoustics) by Laput et.al. + [this file](https://github.com/humancomputerintegration/vr-distraction/blob/main/sensing/audio_main.py)
+* Temperature/wind sensing - [this file](https://github.com/humancomputerintegration/vr-distraction/blob/main/sensing/wind_temp_main.py)
 
 ## VR Demo Presented at UIST 2022
 At UIST 2022, we demoed this project using a VR room escape experience. In this demo, the audience, while finding keys in the mysterious VR room, experienced four different distractions: wind, touch, temperature change, and drilling sound. In the scene, we mapped these four distractions with curtain movement, bat appearance, fire, and debris fall accordingly. While we adopted the wizard-of-oz approach in this demo (i.e., both distractions and mapping were triggered manually) to ensure demo quality, we see future iterations of the sensing system could robustly detect all of these distractions. Here we provided the VR scene used in this demo and a simple script to connect with sensor results from the current prototype system (e.g., the mapping to be triggered automatically when certain distractions are detected). 
