@@ -19,7 +19,7 @@ In this paper, we proposed a proof-of-concept device that detects a small set of
 ## VR Demo Presented at UIST 2022
 At UIST 2022, we demoed this project using a VR room escape experience. In this demo, the audience, while finding keys in the mysterious VR room, experienced four different distractions: wind, touch, temperature change, and drilling sound. In the scene, we mapped these four distractions with curtain movement, bat appearance, fire, and debris fall accordingly. While we adopted the wizard-of-oz approach in this demo (i.e., both distractions and mapping were triggered manually) to ensure demo quality, we see future iterations of the sensing system could robustly detect all of these distractions. Here we provided the VR scene used in this demo with sample scripts to connect with sensor output via OSC (e.g., the mapping to be triggered automatically when certain distractions are detected). 
 
-VR scene could be found at [this link](https://drive.google.com/file/d/1eCreRPcOtTiG0AWme50qBfAJHtYbxC50/view?usp=share_link)
+VR scene could be found at [this link](https://drive.google.com/file/d/1YbyMCpjuXanU9UqlPft_7LSQKLHLBkH-/view?usp=sharing).
 
 ## Citation
 
